@@ -415,6 +415,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'UUID'
         ],
+    'VideoDetails' => [
+    'type' => 'DTS\eBaySDK\Trading\Types\VideoDetailsType',
+    'repeatable' => false,
+    'attribute' => false,
+    'elementName' => 'VideoDetails'
+],
         'VATDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VATDetailsType',
             'repeatable' => false,
